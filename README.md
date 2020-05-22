@@ -1,3 +1,6 @@
+#Deployment
+As soons as you get into the page firstly click a Home link :) https://ukabyl.github.io/react-hooks/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
