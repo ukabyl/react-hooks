@@ -14,6 +14,7 @@ const App = () => {
                 <BrowserRouter>
                     <Navbar />
                     <Switch>
+                        <Route path="/" exact component={HomePage} />
                         <Route path="/react-hooks" exact component={HomePage} />
                         <Route path="/info/" component={Info} />
                         <Route path="/profile/:name" component={Profile}  />
