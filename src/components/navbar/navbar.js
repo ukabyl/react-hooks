@@ -8,7 +8,7 @@ const NavbarContainer = () => {
         <Navbar
             className="black"
             alignLinks="right"
-            brand={<Link className="brand-logo" to="/">
+            brand={<Link className="brand-logo" to="/react-hooks">
                 Search users
             </Link>}
             centerChildren
@@ -26,7 +26,7 @@ const NavbarContainer = () => {
                 preventScrolling: true
             }}
             >
-            <NavLink to="/" exact>Home</NavLink>
+            <NavLink to="/react-hooks" exact>Home</NavLink>
             <NavLink to="/info">Information</NavLink>
         </Navbar>
     )
